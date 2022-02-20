@@ -1,0 +1,354 @@
+/*
+    Reset styles
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+html{
+    min-width: 100%;
+}
+
+/*
+    Main styles
+*/
+
+.container{
+    width: 950px;
+    margin: 0 auto;
+    min-height: 100%;
+    position: relative;
+}
+
+/*
+    Header
+*/
+
+header{
+    height: 78px;
+    position: fixed;
+    padding: 22px 0;
+    box-sizing: border-box;
+    background: #fff;
+    z-index: 10;
+    min-width: 100%;
+}
+
+.header-content{
+    box-sizing: border-box;
+    min-height: 34px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/*
+    Invite
+*/
+
+.invite{
+    position: relative;
+    padding: 158px 0;
+    box-sizing: border-box;
+    background: #FAC960;
+}
+
+.invite-cotnent{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.invite-title{
+    max-width: 680px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.invite-title h2{
+    font-size: 44px;
+    line-height: 54px;
+    color: #8A6D2F;
+}
+
+.invite-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.invite-input, .invite-button{
+    padding: 0 36px;
+    height: 54px;
+    border: none;
+}
+
+.invite-input{
+    border-radius: 2px 0 0 2px;
+    font-size: 30px;
+    line-height: 54px;
+    color: #999999;
+    background: #fff;
+}
+
+.invite-input:focus{
+    outline: none;
+}
+
+.invite-button{
+    border-radius: 0 2px 2px 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 54px;
+    color: #FFFFFF;
+    background: #A8863D;
+    transition: 0.5s ease;
+}
+
+/*
+    Space
+*/
+
+.space{
+    padding: 80px 0;
+    background: #F2F2F2;
+    text-align: center;
+}
+
+.space-title h2{
+    font-size: 37px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.space-title{
+    margin-bottom: 45px;
+}
+
+.space-text{
+    max-width: 820px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.space-text p{
+    font-size: 23px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/*
+    Mobile
+*/
+
+.mobile{
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.mobile-title{
+    margin-bottom: 35px;
+}
+
+.mobile-title h2{
+    font-size: 37px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.mobile-text{
+    max-width: 820px;
+    margin-bottom: 45px;
+    margin: 0 auto;
+    min-height: 60px;
+}
+
+.mobile-text p{
+    font-size: 23px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.mobile-img{
+    max-height: 400px;
+}
+
+.mobile-img, .mobile-img img{
+    z-index: 0;
+    margin-top: 40px;
+}
+
+/*
+    Tell
+*/
+
+.tell{
+    padding: 60px 0;
+    background-color: #FAC960;
+    text-align: center;
+}
+
+.tell-title{
+    margin-bottom: 31px;
+}
+
+.tell-title h2{
+    font-size: 37px;
+    line-height: 36px;
+    color: #8A6D2F;
+}
+
+.tell-text{
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.tell-text p{
+    font-size: 22px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/*
+    Footer
+*/
+
+footer{
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-link, .footer-link img{
+    height: 15px;
+    width: 17px;
+}
+
+/*
+    Adaptive
+*/
+
+@media screen and (max-width: 992px){
+    .container{
+        width: 730px;
+    }
+
+    footer{
+        padding: 60px 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+
+    .invite-form{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .container{
+        width: 300px;
+    }
+
+    .invite-input, .invite-button{
+        width: 100%;
+    }
+
+    .mobile-img, .mobile-img img{
+        max-width: 300px;
+        max-height: 500px;
+    }
+
+    footer{
+        padding: 40px 0;
+    }
+}
+
+/*
+    Hover
+*/
+
+@media screen and (min-width: 768px){
+    .invite-button:hover{
+        background: none;
+        color: #A8863D;
+        cursor: pointer;
+    }
+}
